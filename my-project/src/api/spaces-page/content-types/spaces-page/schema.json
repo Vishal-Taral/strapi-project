@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "spaces_pages",
+  "info": {
+    "singularName": "spaces-page",
+    "pluralName": "spaces-pages",
+    "displayName": "SpacesPage"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Spaces": {
+      "type": "string"
+    }
+  }
+}

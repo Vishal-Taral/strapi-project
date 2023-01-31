@@ -4,21 +4,28 @@
   "info": {
     "singularName": "menu",
     "pluralName": "menus",
-    "displayName": "Menus"
+    "displayName": "menu",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "menu_name": {
-      "type": "string"
+    "home_pages": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::home-page.home-page"
     },
-    "menu_id": {
-      "type": "string"
+    "about_pages": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::about-page.about-page"
     },
-    "menu_label": {
-      "type": "string"
+    "spaces_pages": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::spaces-page.spaces-page"
     }
   }
 }
