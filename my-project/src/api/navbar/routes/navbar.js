@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * about-page router
+ * navbar router
  */
 
 const { createCoreRouter } = require('@strapi/strapi').factories;
 
-module.exports = createCoreRouter('api::about-page.about-page');
+module.exports = createCoreRouter('api::navbar.navbar');
