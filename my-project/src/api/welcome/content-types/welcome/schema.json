@@ -4,7 +4,8 @@
   "info": {
     "singularName": "welcome",
     "pluralName": "welcomes",
-    "displayName": "Welcome"
+    "displayName": "Welcome",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -18,14 +19,23 @@
       "type": "text"
     },
     "HomeImage": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
+    },
+    "description": {
+      "type": "text"
+    },
+    "know_more_apis": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::know-more.know-more"
     }
   }
 }

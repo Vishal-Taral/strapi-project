@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "know_mores",
+  "info": {
+    "singularName": "know-more",
+    "pluralName": "know-mores",
+    "displayName": "knowMoreAPI",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "HowItWorks": {
+      "type": "string"
+    },
+    "HowWorksDescription": {
+      "type": "text"
+    },
+    "KnowMoreLink": {
+      "type": "string"
+    }
+  }
+}
