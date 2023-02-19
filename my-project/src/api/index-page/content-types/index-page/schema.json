@@ -1,0 +1,30 @@
+{
+  "kind": "singleType",
+  "collectionName": "index_pages",
+  "info": {
+    "singularName": "index-page",
+    "pluralName": "index-pages",
+    "displayName": "index_page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "summary_sections": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::summary-section.summary-section"
+    },
+    "hero_image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}
