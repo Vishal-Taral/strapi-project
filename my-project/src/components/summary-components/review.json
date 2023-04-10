@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_summary_components_reviews",
+  "info": {
+    "displayName": "review"
+  },
+  "options": {},
+  "attributes": {
+    "display": {
+      "type": "boolean"
+    },
+    "autoplay": {
+      "type": "boolean"
+    },
+    "reviews": {
+      "type": "component",
+      "repeatable": true,
+      "component": "ui-components.reviews"
+    }
+  }
+}

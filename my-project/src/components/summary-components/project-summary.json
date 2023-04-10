@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_summary_components_project_summ",
+  "info": {
+    "displayName": "Project_summary",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui-components.text-component"
+    },
+    "subtitle": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui-components.text-component"
+    },
+    "breadscrumbs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "ui-components.breadscrumb"
+    },
+    "craousel": {
+      "type": "component",
+      "repeatable": true,
+      "component": "ui-components.craousel-array"
+    },
+    "display": {
+      "type": "boolean"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_summary_components_collabo",
+  "info": {
+    "displayName": "Collaborations",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui-components.text-component"
+    },
+    "collaborators": {
+      "type": "component",
+      "repeatable": true,
+      "component": "ui-components.collaborators"
+    },
+    "FAQ": {
+      "type": "string"
+    }
+  }
+}

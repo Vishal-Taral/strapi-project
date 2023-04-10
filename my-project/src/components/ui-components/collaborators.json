@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_ui_components_collaborators",
+  "info": {
+    "displayName": "image_component",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "logo": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "collectionName": "components_summary_components_why_choose_us",
+  "info": {
+    "displayName": "why_choose_us",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui-components.text-component"
+    },
+    "description": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui-components.text-component"
+    },
+    "moreDetailsPara1": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui-components.text-component"
+    },
+    "moreDetailsPara2": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui-components.text-component"
+    },
+    "creativeSpaceImage": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui-components.text-component"
+    },
+    "CreativeSpace": {
+      "displayName": "creativeSpace",
+      "type": "component",
+      "repeatable": true,
+      "component": "ui-components.creative-space"
+    }
+  }
+}

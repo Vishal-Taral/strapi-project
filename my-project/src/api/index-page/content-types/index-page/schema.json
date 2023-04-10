@@ -11,11 +11,6 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "summary_sections": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::summary-section.summary-section"
-    },
     "hero_image": {
       "allowedTypes": [
         "images",

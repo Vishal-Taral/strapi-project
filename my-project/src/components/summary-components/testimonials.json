@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_summary_components_testimonials",
+  "info": {
+    "displayName": "Testimonials",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui-components.text-component"
+    },
+    "subtitle": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui-components.text-component"
+    },
+    "review": {
+      "displayName": "review",
+      "type": "component",
+      "repeatable": false,
+      "component": "summary-components.review"
+    }
+  }
+}

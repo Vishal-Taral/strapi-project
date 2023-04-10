@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_summary_components_about_us",
+  "info": {
+    "displayName": "about_us_summary",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "subtitle": {
+      "type": "component",
+      "repeatable": true,
+      "component": "ui-components.text-component"
+    },
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui-components.text-component"
+    },
+    "description": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui-components.text-component"
+    },
+    "cta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui-components.cta"
+    }
+  }
+}

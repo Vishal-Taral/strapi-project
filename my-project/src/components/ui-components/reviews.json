@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_ui_components_reviews",
+  "info": {
+    "displayName": "Reviews",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "type": "string"
+    },
+    "review": {
+      "type": "richtext"
+    },
+    "profile_photo": {
+      "type": "string"
+    },
+    "reviewer_name": {
+      "type": "richtext"
+    },
+    "position": {
+      "type": "richtext"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_ui_components_ctas",
+  "info": {
+    "displayName": "cta"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "richtext"
+    },
+    "display": {
+      "type": "boolean"
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}

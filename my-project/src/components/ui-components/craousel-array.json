@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_ui_components_craousel_arrays",
+  "info": {
+    "displayName": "carouselArray",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "string"
+    },
+    "display": {
+      "type": "boolean"
+    },
+    "title": {
+      "type": "richtext"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "cta": {
+      "type": "string"
+    },
+    "ctaLink": {
+      "type": "string"
+    }
+  }
+}
